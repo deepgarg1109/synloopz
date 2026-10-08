@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SYNLOOPZ | Web Development Services</title>
+    <title>SYNLOOPZ | Digital Products & Engineering</title>
     <meta
       name="description"
-      content="SYNLOOPZ provides web development, server management, UI/UX design, mobile apps, PHP, JavaScript, and database solutions."
+      content="SYNLOOPZ designs, builds, and supports custom web platforms, mobile experiences, business systems, and dependable infrastructure."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -19,115 +19,183 @@
   <body>
     <header class="topbar">
       <div class="container nav">
-        <div class="brand">SYNLOOPZ</div>
+        <a class="brand" href="#top" aria-label="Synloopz home"><span class="brand-mark">S</span><span>SYNLOOPZ</span></a>
         <nav class="nav-links" aria-label="Main navigation">
-          <a href="#services">Services</a>
+          <a href="#capabilities">Capabilities</a>
+          <a href="#approach">Approach</a>
           <a href="#about">About</a>
-          <a href="#contact">Contact</a>
         </nav>
+        <a class="nav-cta" href="mailto:deep@synloopz.com">Start a conversation <span aria-hidden="true">↗</span></a>
       </div>
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero" id="top">
+        <div class="hero-image" role="img" aria-label="Developer working at a desk with code on screen"></div>
+        <div class="hero-shade"></div>
         <div class="container hero-inner">
           <div class="hero-copy">
-            <p class="eyebrow">Digital growth, built smart</p>
-            <h1>Custom technology solutions for modern businesses.</h1>
+            <p class="eyebrow"><span></span> Independent digital studio</p>
+            <h1>Good technology should make work <em>feel simpler.</em></h1>
             <p class="lead">
-              From web development and app design to server support and database systems,
-              SYNLOOPZ helps brands launch, scale, and optimize digital experiences.
+              SYNLOOPZ turns operational challenges into thoughtful digital products,
+              useful business software, and infrastructure you can rely on.
             </p>
             <div class="actions">
-              <a class="button primary" href="#services">Explore Services</a>
-              <a class="button secondary" href="mailto:deep@synloopz.com">Contact Us</a>
+              <a class="button primary" href="mailto:deep@synloopz.com">Discuss your project <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="#capabilities">Explore capabilities <span aria-hidden="true">↓</span></a>
             </div>
           </div>
-          <div class="hero-panel" aria-label="Service overview card">
-            <div class="panel-content">
-              <span class="panel-tag">Core expertise</span>
-              <ul>
-                <li>PHP & JavaScript Development</li>
-                <li>Mobile App Solutions</li>
-                <li>UI/UX Design</li>
-                <li>Database & Server Management</li>
-              </ul>
-            </div>
-          </div>
+          <div class="hero-caption"><span class="caption-line"></span><span>From first idea to dependable release</span></div>
         </div>
       </section>
 
-      <section id="services" class="services section">
+      <section class="intro-strip" aria-label="Studio focus">
+        <div class="container intro-inner">
+          <p>Strategy-minded design</p><span></span>
+          <p>Practical engineering</p><span></span>
+          <p>Long-term support</p>
+        </div>
+      </section>
+
+      <section id="capabilities" class="services section">
         <div class="container">
           <div class="section-heading">
-            <p class="eyebrow">What we do</p>
-            <h2>Technology services that keep your business moving.</h2>
+            <div>
+              <p class="eyebrow">Capabilities</p>
+              <h2>Build the right thing.<br><span>Make it work beautifully.</span></h2>
+            </div>
+            <p class="section-intro">A connected set of design, development, and operational skills for digital work that needs to do more than look the part.</p>
           </div>
 
           <div class="service-grid">
             <article class="service-card">
-              <div class="icon">PHP</div>
-              <h3>PHP Development</h3>
-              <p>Robust, scalable web applications and custom business solutions built with PHP.</p>
+              <span class="service-index">01 / BUILD</span>
+              <div class="service-symbol" aria-hidden="true">{ }</div>
+              <h3>Web platforms</h3>
+              <p>Custom websites, portals, and internal tools shaped around the way your business actually works.</p>
+              <div class="service-tags"><span>PHP</span><span>Laravel</span><span>JavaScript</span></div>
             </article>
-
             <article class="service-card">
-              <div class="icon">JS</div>
-              <h3>JavaScript Development</h3>
-              <p>Interactive, responsive frontend experiences and modern JavaScript-driven products.</p>
+              <span class="service-index">02 / DESIGN</span>
+              <div class="service-symbol" aria-hidden="true">◫</div>
+              <h3>Product experience</h3>
+              <p>Clear user flows and responsive interfaces that make complex tasks easier to understand and complete.</p>
+              <div class="service-tags"><span>UX</span><span>UI systems</span><span>Prototyping</span></div>
             </article>
-
             <article class="service-card">
-              <div class="icon">App</div>
-              <h3>Mobile Apps</h3>
-              <p>Native and cross-platform mobile experiences designed for reach, usability, and growth.</p>
+              <span class="service-index">03 / DESIGN</span>
+              <div class="service-symbol" aria-hidden="true">◧</div>
+              <h3>Figma design</h3>
+              <p>Wireframes, polished interface designs, and clickable prototypes prepared for thoughtful product decisions.</p>
+              <div class="service-tags"><span>Figma</span><span>Wireframes</span><span>Prototypes</span></div>
             </article>
-
             <article class="service-card">
-              <div class="icon">UX</div>
-              <h3>UI/UX Design</h3>
-              <p>Intuitive user journeys and visually engaging interfaces that improve conversion and trust.</p>
+              <span class="service-index">04 / CONNECT</span>
+              <div class="service-symbol" aria-hidden="true">↗</div>
+              <h3>Systems & integrations</h3>
+              <p>Reliable data flows between the tools, teams, and services your operation depends on.</p>
+              <div class="service-tags"><span>APIs</span><span>Databases</span><span>Automation</span></div>
             </article>
-
             <article class="service-card">
-              <div class="icon">DB</div>
-              <h3>Database Solutions</h3>
-              <p>Reliable data architecture, optimization, and management for secure and efficient workflows.</p>
+              <span class="service-index">05 / CUSTOMER RELATIONSHIPS</span>
+              <div class="service-symbol" aria-hidden="true">◎</div>
+              <h3>CRM solutions</h3>
+              <p>CRM setup and custom workflows to organize customer records, sales activity, and follow-ups.</p>
+              <div class="service-tags"><span>CRM setup</span><span>Workflows</span><span>Integrations</span></div>
             </article>
-
             <article class="service-card">
-              <div class="icon">Srv</div>
-              <h3>Server Management</h3>
-              <p>Deployment, maintenance, and performance monitoring to keep your systems secure and stable.</p>
+              <span class="service-index">06 / GET DISCOVERED</span>
+              <div class="service-symbol" aria-hidden="true">⌕</div>
+              <h3>SEO services</h3>
+              <p>Technical and on-page SEO improvements that make your site easier for search engines and people to navigate.</p>
+              <div class="service-tags"><span>Technical SEO</span><span>On-page</span><span>Site structure</span></div>
+            </article>
+            <article class="service-card">
+              <span class="service-index">07 / EXTEND</span>
+              <div class="service-symbol" aria-hidden="true">▯</div>
+              <h3>Mobile applications</h3>
+              <p>Mobile-first product experiences for customers and teams, designed for real-world use.</p>
+              <div class="service-tags"><span>iOS</span><span>Android</span><span>Cross-platform</span></div>
+            </article>
+            <article class="service-card">
+              <span class="service-index">08 / OPERATE</span>
+              <div class="service-symbol" aria-hidden="true">⌘</div>
+              <h3>Cloud & servers</h3>
+              <p>Deployment, maintenance, and practical monitoring to keep services stable and available.</p>
+              <div class="service-tags"><span>Linux</span><span>Deployment</span><span>Monitoring</span></div>
+            </article>
+            <article class="service-card">
+              <span class="service-index">09 / IMPROVE</span>
+              <div class="service-symbol" aria-hidden="true">⌁</div>
+              <h3>Ongoing improvement</h3>
+              <p>Thoughtful iteration, technical upkeep, and hands-on support as your needs change.</p>
+              <div class="service-tags"><span>Support</span><span>Optimization</span><span>Planning</span></div>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="about" class="about section alt-bg">
+      <section class="use-cases section">
+        <div class="container use-grid">
+          <div class="use-heading">
+            <p class="eyebrow">Useful by design</p>
+            <h2>Technology with a job to do.</h2>
+            <p>Start with the friction in your day-to-day. Then build a digital solution around the outcome you need.</p>
+          </div>
+          <div class="use-list">
+            <article><span>01</span><div><h3>Bring scattered work together</h3><p>Replace disconnected spreadsheets and repeated admin with a shared workflow.</p></div><b aria-hidden="true">↗</b></article>
+            <article><span>02</span><div><h3>Give customers a better way in</h3><p>Make it easier to discover, request, manage, or buy what you offer.</p></div><b aria-hidden="true">↗</b></article>
+            <article><span>03</span><div><h3>Make existing systems more useful</h3><p>Connect the data and services you already have instead of starting over.</p></div><b aria-hidden="true">↗</b></article>
+            <article><span>04</span><div><h3>Launch with confidence</h3><p>Prepare the product, hosting, and release process for dependable day-to-day use.</p></div><b aria-hidden="true">↗</b></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="approach" class="approach section">
+        <div class="container">
+          <div class="section-heading approach-heading">
+            <div><p class="eyebrow">A clear way forward</p><h2>From first conversation<br><span>to the next version.</span></h2></div>
+            <p class="section-intro">A collaborative process keeps decisions visible and the work focused on what matters.</p>
+          </div>
+          <div class="steps">
+            <article><span>01</span><h3>Understand</h3><p>Clarify the goal, users, constraints, and what a useful outcome looks like.</p></article>
+            <article><span>02</span><h3>Shape</h3><p>Map the experience and technical approach before committing to the build.</p></article>
+            <article><span>03</span><h3>Deliver</h3><p>Build, review, and refine in practical steps with clear communication.</p></article>
+            <article><span>04</span><h3>Support</h3><p>Launch carefully, then improve the product as real needs emerge.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section">
         <div class="container about-grid">
           <div>
-            <p class="eyebrow">Why SYNLOOPZ</p>
-            <h2>We blend technology, design, and operational reliability.</h2>
+            <p class="eyebrow">About SYNLOOPZ</p>
+            <h2>Small enough to listen.<br><span>Experienced enough to connect the dots.</span></h2>
           </div>
           <div class="about-copy">
             <p>
-              SYNLOOPZ helps businesses build digital systems that are efficient, scalable,
-              and easy to use. Whether you need a custom web platform, a mobile-first product,
-              or dependable backend infrastructure, we focus on practical solutions that deliver value.
+              SYNLOOPZ is an independent technology partner for businesses that need useful digital work done well. Design, application development, data, and infrastructure are considered together, so the solution is practical from the interface through to the systems behind it.
             </p>
+            <p>Engagements can start with a focused improvement or grow into a complete product build. The common thread is direct collaboration, clear choices, and care for what happens after launch.</p>
+            <a class="inline-link" href="mailto:deep@synloopz.com">Tell us what you’re working on <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </section>
     </main>
 
     <footer id="contact" class="footer">
-      <div class="container footer-inner">
-        <div>
-          <div class="brand">SYNLOOPZ</div>
-          <p>Web development, design, database, and server services for growing businesses.</p>
+      <div class="footer-cta">
+        <div class="container footer-cta-inner">
+          <div><p class="eyebrow">Have a challenge in mind?</p><h2>Let’s make the next step clearer.</h2></div>
+          <a class="button dark-button" href="mailto:deep@synloopz.com">Start a conversation <span aria-hidden="true">↗</span></a>
         </div>
+      </div>
+      <div class="container footer-inner">
+        <a class="brand" href="#top"><span class="brand-mark">S</span><span>SYNLOOPZ</span></a>
+        <p>Digital products, engineering, and dependable support.</p>
         <a class="email-link" href="mailto:deep@synloopz.com">deep@synloopz.com</a>
+        <span class="copyright">© <span id="year">2026</span> SYNLOOPZ</span>
       </div>
     </footer>
   </body>
